@@ -6,20 +6,20 @@
 
 A sophisticated web application for predicting patient survival risk and providing precision medicine recommendations using advanced statistical modeling and machine learning.
 
-## 📋 Overview
+## Overview
 
 **Surviva** is an advanced clinical decision support tool that leverages the Cox Proportional Hazards model to predict survival probabilities and risk stratification for cancer patients. The app provides personalized therapy recommendations based on patient characteristics, biomarkers, and genetic profiles.
 
 ### Key Features
 
-- **🎯 Survival Prediction**: Cox Proportional Hazards model for accurate survival probability estimation
-- **📊 Risk Stratification**: Low, Medium, High risk categorization based on predictive model
-- **💊 Precision Medicine**: Biomarker-guided therapy recommendations (KRAS, MSI/MMR status)
-- **📈 Interactive Visualizations**: Survival curves, risk metrics, and clinical recommendations
-- **🌙 Professional UI**: Dark mode interface with modern design and intuitive controls
-- **🧬 Modern Branding**: Custom logo with survival curve visualization
+- ** Survival Prediction**: Cox Proportional Hazards model for accurate survival probability estimation
+- ** Risk Stratification**: Low, Medium, High risk categorization based on predictive model
+- ** Precision Medicine**: Biomarker-guided therapy recommendations (KRAS, MSI/MMR status)
+- ** Interactive Visualizations**: Survival curves, risk metrics, and clinical recommendations
+- ** Professional UI**: Dark mode interface with modern design and intuitive controls
+- ** Modern Branding**: Custom logo with survival curve visualization
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ streamlit run app.py
 
 The app will open in your browser at `http://localhost:8501`
 
-## 📦 Dependencies
+## Dependencies
 
 - **pandas** (≥2.1.0): Data manipulation and analysis
 - **numpy** (≥1.26.0): Numerical computing
@@ -78,7 +78,7 @@ The app will open in your browser at `http://localhost:8501`
 - **lifelines** (≥0.27.0): Survival analysis library
 - **streamlit** (≥1.28.0): Interactive web app framework
 
-## 🎨 Features & Functionality
+## Features & Functionality
 
 ### 1. **Patient Profile Input**
 - Sex/Gender
@@ -111,7 +111,7 @@ The app will open in your browser at `http://localhost:8501`
 - Age and organ function adjustments
 - Sex-specific dosing recommendations
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ### Backend
 - **Model**: Cox Proportional Hazards (lifelines)
@@ -129,7 +129,7 @@ Patient Input → Feature Engineering → Cox Model →
 Survival Curve → Risk Stratification → Recommendations
 ```
 
-## 📊 Model Details
+## Model Details
 
 ### Cox Proportional Hazards Model
 The Cox model is a semi-parametric regression model that estimates the hazard function:
@@ -156,16 +156,16 @@ Where:
 4. **Trial Enrollment**: Identify high-risk patients for specialized protocols
 5. **Quality Improvement**: Monitor outcome predictions vs. actual outcomes
 
-## 🖼️ UI/UX Improvements (v2.0)
+## UI/UX Improvements (v2.0)
 
-- ✅ **Night Mode Only**: Professional dark theme for reduced eye strain
-- ✅ **Modern Logo**: Custom survival curve visualization with red "Surviva" text and glow effects
-- ✅ **Clean Design**: Removed background patterns for professional appearance
-- ✅ **High Contrast**: Improved text readability
-- ✅ **Blue Accent Colors**: Professional color scheme
-- ✅ **Responsive Layout**: Optimized for desktop and tablet viewing
+-  **Night Mode Only**: Professional dark theme for reduced eye strain
+-  **Modern Logo**: Custom survival curve visualization with red "Surviva" text and glow effects
+-  **Clean Design**: Removed background patterns for professional appearance
+-  **High Contrast**: Improved text readability
+-  **Blue Accent Colors**: Professional color scheme
+-  **Responsive Layout**: Optimized for desktop and tablet viewing
 
-## 🔄 Retraining the Model
+##  Retraining the Model
 
 To retrain the Cox model with new data:
 
@@ -178,17 +178,17 @@ This will generate:
 - `app_config.json`: Feature coefficients and metadata
 - Updated model performance metrics
 
-## 🔐 Important Disclaimer
+## Important Disclaimer
 
 **This tool is for educational and research purposes only.**
 
-- ⚠️ **Not a substitute for clinical judgment**
-- ⚠️ **Consult healthcare professionals** for medical decisions
-- ⚠️ **Model accuracy varies** - use with appropriate caution
-- ⚠️ **Validate predictions** with current clinical guidelines
-- ⚠️ **Institutional review** recommended before clinical use
+- **Not a substitute for clinical judgment**
+- **Consult healthcare professionals** for medical decisions
+- **Model accuracy varies** - use with appropriate caution
+- **Validate predictions** with current clinical guidelines
+- **Institutional review** recommended before clinical use
 
-## 📈 Future Improvements
+## Future Improvements
 
 - [ ] Integration with additional ML models (Random Survival Forest, Gradient Boosting)
 - [ ] Multi-cohort validation studies
@@ -199,14 +199,14 @@ This will generate:
 - [ ] Advanced visualization dashboards
 - [ ] Confidence intervals for predictions
 
-## 📚 References
+## References
 
 1. Cox, D.R. (1972). "Regression Models and Life-Tables". Journal of the Royal Statistical Society
 2. Lifelines Documentation: https://lifelines.readthedocs.io/
 3. Concordance Index: Harrell, F. E., Lee, K. L., & Mark, D. B. (1996)
 4. TCGA-PANCAN Dataset: https://www.cancer.gov/tcga
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 1. Fork the repository
@@ -214,16 +214,16 @@ Contributions are welcome! Please:
 3. Make your improvements
 4. Submit a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
-## 👤 Author
+## Author
 
 **Eric Johnson**
 - GitHub: [@ericjohsnonps2000](https://github.com/ericjohsnonps2000)
 
-## 📞 Support
+## Support
 
 For issues, questions, or suggestions:
 - Open an issue on GitHub
