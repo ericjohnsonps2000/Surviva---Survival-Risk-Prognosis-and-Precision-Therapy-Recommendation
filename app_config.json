@@ -1,0 +1,15 @@
+{
+  "feature_cols": [
+    "Sex",
+    "tnm.stage",
+    "age.norm",
+    "kras.mut",
+    "msi.h"
+  ],
+  "age_mean": 65.0,
+  "age_std": 15.0,
+  "msi_default": 0,
+  "cox_risk_p25": 0.6394861233631994,
+  "cox_risk_p50": 0.995044635827169,
+  "cox_risk_p75": 1.7238496926550315
+}
