@@ -39,5 +39,8 @@ build/
 !survival_df.csv
 !README.md
 !.gitignore
+!.streamlit/
+!.streamlit/config.toml
 !run_app.bat
 !run_training.bat
+!STREAMLIT_DEPLOYMENT.md
